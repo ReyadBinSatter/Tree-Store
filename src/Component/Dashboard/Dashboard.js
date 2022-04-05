@@ -43,7 +43,7 @@ const Dashboard = () => {
     ];
 
     return (
-        <div className='grid grid-cols-2 gap-4'>
+        <div className='grid grid-cols-2 gap-4 mt-24 mx-24'>
             <div className='mx-3'>
                 <h1 className='text-2xl'>Line Chart:</h1>
                 <LineChart width={700} height={400} data={data}>
