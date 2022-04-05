@@ -4,7 +4,7 @@ import './ReviewItem.css'
 const ReviewItem = (props) => {
     const { name, ratings, review } = props.review;
     return (
-        <div className='grid grid-cols-3 gap-4'>
+        <div className='grid grid-cols-3'>
             <div></div>
             <div className='review '>
                 <h2>{name}</h2>
